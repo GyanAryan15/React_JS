@@ -11,6 +11,7 @@ const router  = createBrowserRouter([
   {
     path:"/",
     element:<Layout />,
+    errorElement: <div className="text-center text-3xl font-bold py-20 text-red-800">Oops! Page Not Found 🚫</div>,
     children:[{
       path:"",
       element:<Home />
