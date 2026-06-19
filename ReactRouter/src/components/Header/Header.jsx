@@ -37,8 +37,8 @@ function Header(){
             >
               <li>
                 <NavLink
-                className={(isActive)=>{
-                  `block py-2 pr-4 pl-3 duration-200 border-b ${isActive? "text-blue-800" : "text-black" } border-yellow-200 hover:bg-blue-500 lg:hover:bg-transparent lg:border-0 hover:text-orange-700  lg:p-0`
+                className={({isActive})=>{
+                  `block py-2 pr-4 pl-3 duration-200 border-b ${isActive? "text-blue-800" : "text-green-600" } border-yellow-200 hover:bg-blue-500 lg:hover:bg-transparent lg:border-0 hover:text-orange-700  lg:p-0`
                 }}
                 >
                   Home
